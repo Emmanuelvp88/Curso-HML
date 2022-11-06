@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FORMULARIOS</title>
+		<meta charset="utf-8">
+		<link rel="icon"  href="html.png">
+	</head>	
+	<header>
+		<h1>ETIQUETA INPUT</h1>
+		<H2>Veremos que son los Formularios</H2>
+	</					
+	<body>
+		
+		<p>Los Formularios son un tipo de  etiquetas las cuales tambien tienen Metodos uno de ellos es el <b>"< input  type = "" name = "" ></b> lo cual tienen <b>atributos</b> que vienen siendo el tipo de entrada que se va realizar <b>EJEMPLO: </b> TIPO: texto,passwor,numero,email,color,rango,date,time,button.
+		estos metodos son entradas de datos que le pedimos a el Usuario, seria parecido como a un JTextField de lenguaje <b>Java</b> se declara como una variable en java, se le pone el typo de dato y un nombre.
+	    en la pagina de muentran como un campo tipo "Rectangulo" donde el usuario tiene que ingresar ciertos datos y el programa tiene que tomar esos datos procesarlos y regresar una respuesta o simplemente quedarse con el dato y almacenarlo en una base de datos, siguiendo el protocolo estandar <b>Input, procesamiento, Output</b>.<br>
+
+		</p>Lo mas importante esque estos Metodos <b>input</b> pueden ser de diferentes tipos de datos por ejemplo: <b>Texto, Password, Number, email, Color, range, date, Time, Button, Submit</b> como se menciono anterior mente
+		Tienene un nombre,atributos y propiedades como lo es <b>"requiered"</b> al igula que a una varible, todo lo que ingresemos en un <b>input</b> se guardara en <b>value=""</b> todos los <b>input</b> tienen un <b>value</b> ..<br>
+
+		<h3>EJEMPO TEORICO:</h3>
+		Aqui vemos un input de tipo:<b>texto</b> de nombre:<b>cadena</b> de texto y con el atributo:<b>requiered</b>, el cual se encarga de que los <b>input</b> sean forsozamente llenados y con el tipo de datos con el que se le asigno.<br>
+
+		form<br>
+		"(input <b>type</b> = "texto" <b>name</b> = "cadena de texto" <b>required</b> = "")"<br>
+		form
+
+			<p><b>EJEMPLOS:</b></p>
+
+			<form method="post">
+				
+					Texto:   <input type="text" name="Texto" required = "">
+					Password:<input type="password" name="contraseña" required="">
+					Number:  <input type="number" name="numeros"required = "">
+					Email:   <input type="email" name="email"required = "">
+					Color:   <input type="color" name="color"required = ""><br><br>
+
+					Range:   <input type="range" name="rango" min="10" max="500"required = ""> <p>Este input de tipo "renge" podemos indicarle el rango que deseas con unos atribitos "min" "max" <b>Un minimo de = "" y un Maximo de = ""</b></p><br><br>
+
+				   	Date:    <input type="date" name="dato"required = "">
+				   	Time:    <input type="Time" name="tiempo"required = ""><br><br>
+
+				   	Button:  <input type="button" value="Boton"> En el input de tipo boton debe llevar un " value = "" " en vez de name = "" ya que este dictara el nombre que mostrara al usuario que de lo contrario solo veriamos un pequeño botonsito el cual no se distigiria nada, aunque podemos decir que todos estos formularios tinen esa propiedad "value" ya que esta definira el retorno de lo que ingresemos dentro del formulario cuando lo mandemos a llamar<br><br>
+
+				   	Submit:  <input type="Submit"> <b>"submit"</b> es para envair todos los formularios llenos y los que no esten llenados correctamete ya sea por que el dato ingresado por el usuario no es del tipo de dato que es y que requiere el input los rechazara mandando un mensaje en pantalla.
+
+				   	<p><b>NOTA: </b>Si no ingresamos caracteres del tipo de de dato que nos estan solocitando cada <b>input</b> simplemente no nos va dejar enviar el formulario.</p>
+				  	<p>tambien podemos agragarle un atributo mas que es el <b>"required"</b> que nos proibe enviar cualquier formulario si no estan lleno, osea que si el campo del formulario estas vacio, nos madara un mensaje en pantalle que nos dira, <b>"complete este campo"</b></p>
+
+				   	<p>Tenemos tambien el <b>"textarea"</b> que actua de igual manera solo que este es un recuadro que podemos darle diferentes dimenciones, y tambien tiene atributos tales como el <b>readpnly</b></p><br>
+				  	<textarea readonly=""> Hola como estas pedro querido</textarea>
+
+			</form>
+
+	</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MULTIMEDIA</title>
+		<meta charset="utf-8">
+		<link rel="icon"  href="html.png">
+	</head>
+	<body>
+
+		<p>En esta clase veremos como insertar una Imagen, un Audio y un Video desde una ruta en nuestro ordenador <b>"LOCAL".</b></p> <br>
+
+		<h4>Insertando una imagen</h4>
+		<p>Veremos la etiqueta <b>< img src = "" ></b> que es para insertar una imagen.<br>
+		La etiqueta <b>"img"</b> es para poner una <b>IMAGEN</b>y no necesita ser cerrada, en comparacion con las etiquetas para poner un video o un audio</p><br>
+
+		<img src = "multimedia/descarga.jfif">
+
+		
+
+		<h4>Insertando imagen con diferente resolucion</h4>
+		<p>Misma imagen pero con los atributos 
+		<b>"width"</b> y <b>"heigth"</b><br>
+		Estos atributos de la etiqueta <b>"img"</b> sirven para modificar el archivo en su ancho y alto </p>
+
+		<img src = "multimedia/descarga.jfif" height="180" width="130">
+
+
+		<p>Cabe mencionar que el protocolo es mismo para buscar elementos dentro de una carpeta <b>EJEMPLO: "../"</b> para una carpeta atras de donde se encuentra nuestro archivo HTML y <b>"nombre carpeta/nombre imagen.png"</b>para la imagen dentro de una carpeta, o rutas completas para hasta llegar a ala carpeta donde se encuentre nuestra imagen.</p> <br>			
+		<h3>EJEMPLO:  C:/user/flako/Escritorio/Descargas/HTML/imagen.png </h3>
+
+		<h2>Insertando un Video</h2>
+		<p>En la <b>Etiqueta: "< video src = "" >< /video"</b> tambien es aplicable los <b>Atributos: "width" y "height"</b> para cambiar acho y alto del archivo y para agregar los controles por default con el atributo <b>controls = ""</b></p>
+
+		<video src = "multimedia/caribbean queen.mp4" width="980" height="380" controls="" ></video>		
+
+		<h2>Insertando un Audio</h2>
+		<p>En esta <b>Etiqueta: < audio src = "" >< /audio > tenemos que agregar el atributo <b>control = ""</b> ya que sin ese atributo en la etiqueta no podremos visualizar la interfaz de reproduccion.</b></p>
+
+		<audio src = "multimedia/AM.mp3" controls=""></audio>
+		<p></p>
+		<h3>Listo, con esto concluimos con las etiquetas para colocar una <b>IMAGEN, VIDEO Y AUDIO</b> y sus atributos <b>"Width" Y "Heigth"</b></h3>
+		
+	</body>
+
+
+</html>
